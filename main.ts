@@ -26,5 +26,5 @@ basic.showString("Ich zelle bis 3 . Dann machs BAAAAAANG . KAPIERT !!!!!! ")
 basic.forever(function () {
     basic.showIcon(IconNames.Happy)
     basic.setLedColors(0x7f00ff, 0x00ffff, 0x00ff00)
-    music.play(music.builtinPlayableSoundEffect(soundExpression.mysterious), music.PlaybackMode.UntilDone)
+    music.play(music.builtinPlayableSoundEffect(soundExpression.yawn), music.PlaybackMode.UntilDone)
 })
