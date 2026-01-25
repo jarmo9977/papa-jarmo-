@@ -20,5 +20,5 @@ basic.showIcon(IconNames.Fabulous)
 basic.showString("Jarmo ")
 basic.forever(function () {
     basic.showIcon(IconNames.Happy)
-    basic.setLedColors(0x7f00ff, 0x00ffff, 0x000000)
+    basic.setLedColors(0x7f00ff, 0x00ffff, 0x00ff00)
 })
