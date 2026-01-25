@@ -19,6 +19,7 @@ input.onGesture(Gesture.Shake, function () {
 basic.showIcon(IconNames.Fabulous)
 basic.showString("PAPA")
 basic.showString("Jarmo ")
+basic.showString("🎱♟♣️🎮🀄🃏")
 for (let Index = 0; Index <= 11; Index++) {
     basic.showNumber(Index)
 }
