@@ -19,6 +19,9 @@ input.onGesture(Gesture.Shake, function () {
         # . . . #
         `)
 })
+input.onGesture(Gesture.LogoDown, function () {
+    basic.showString("ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄYYYYYYYYY")
+})
 input.onGesture(Gesture.LogoUp, function () {
     basic.showString("ÄÄÄÄÄÄÄÄÄÄH")
 })
