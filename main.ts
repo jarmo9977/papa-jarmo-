@@ -1,3 +1,6 @@
+input.onGesture(Gesture.TiltRight, function () {
+    basic.showIcon(IconNames.Confused)
+})
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     basic.showNumber(input.temperature())
 })
