@@ -19,6 +19,9 @@ input.onGesture(Gesture.Shake, function () {
         # . . . #
         `)
 })
+input.onGesture(Gesture.LogoUp, function () {
+    basic.showString("ÄÄÄÄÄÄÄÄÄÄH")
+})
 basic.showIcon(IconNames.Fabulous)
 basic.showString("PAPA")
 basic.showString("Jarmo ")
