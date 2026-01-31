@@ -33,6 +33,9 @@ for (let Index = 0; Index <= 11; Index++) {
     basic.showNumber(Index)
 }
 basic.showString("Ich zelle bis 3 . Dann machs BAAAAAANG . KAPIERT !!!!!! ")
+for (let Index = 0; Index <= 3; Index++) {
+    basic.showNumber(Index)
+}
 basic.forever(function () {
     basic.showIcon(IconNames.Happy)
     basic.setLedColors(0x7f00ff, 0x00ffff, 0x00ff00)
